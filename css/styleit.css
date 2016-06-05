@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto/Roboto-Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto/Roboto-Regular.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../fonts/roboto/Roboto-Thin.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto/Roboto-Thin.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto/Roboto-Thin.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+html {
+    line-height: 1.5;
+    font-family: "Roboto-Thin", sans-serif;
+    font-weight: normal;
+    color: rgba(0,0,0,0.87);
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Animations Start */
+
+@keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@-webkit-keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@-moz-keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@-ms-keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@-o-keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+/* Animations End */
+
+.row {
+    margin-bottom: 0;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    min-height: 100%;
+    height: auto !important;
+}
+
+.fadein {
+    -webkit-animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -ms-animation: fadein 4s;
+    -o-animation: fadein 4s;
+    animation: fadein 4s;
+}
