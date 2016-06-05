@@ -79,3 +79,9 @@ html, body {
     -o-animation: fadein 4s;
     animation: fadein 4s;
 }
+
+.vb-img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
