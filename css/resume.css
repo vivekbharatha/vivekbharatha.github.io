@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - me v0.0.1 ()
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/me/blob/master/LICENSE)
  */
 
@@ -81,6 +81,12 @@ p.lead {
 
 .dev-icons .list-inline-item i:hover {
   color: #c43b3b;
+}
+
+.svg-icon {
+  width: 48px;
+  height: 48px;
+  margin-top: -20px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
